@@ -1,0 +1,25 @@
+---Descriere Dataset---
+
+
+Dataset-ul ales: 
+Asos E-Commerce Dataset - 30,845 products
+
+Sursă: 
+Kaggle: https://www.kaggle.com/datasets/trainingdatapro/asos-e-commerce-dataset-30845-products?resource=download
+
+Descriere: 
+Dataset-ul conține produse fashion listate pe ASOS, unul dintre cele mai mari magazine de modă online
+
+Atribute:
+  itemId: ID unic pentru fiecare produs (preluat din coloana sku din dataset-ul original)
+  name: Numele complet al produsului
+  price: Prețul produsului (curățat pentru a elimina orice text și a păstra doar valoarea numerică)
+  category: Categoria produsului
+  color: Culoarea principală a produsului
+
+Prelucrare:
+După încărcarea inițială, dataset-ul a fost filtrat pentru a elimina duplicatele și pentru a limita numărul la maxim 1000 de intrări unice.
+Prețurile au fost procesate pentru a păstra doar valorile numerice, eliminând orice text adițional.
+
+De ce l-am ales:
+Am ales acest dataset deoarece avea toate fildurile necesare pentru descrierea de articole vestimentare.
